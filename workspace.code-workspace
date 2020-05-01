@@ -13,14 +13,11 @@
 		"workbench.colorTheme": "Dracula",
 		// "editor.fontFamily": "Fira Code",
 		"editor.fontLigatures": true,
-		// Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
 		"editor.rulers": [
 			80,
 			120
 		],
-		// Aplica um sinal visual na esquerda da linha selecionada
 		"editor.renderLineHighlight": "gutter",
-		// Aumenta a fonte do terminal
 		"terminal.integrated.fontSize": 14,
 		"editor.fontWeight": "400",
 		"editor.formatOnSave": true,
@@ -42,7 +39,6 @@
 		"autoimport.doubleQuotes": true,
 		"workbench.iconTheme": "material-icon-theme",
 		"explorer.confirmDelete": false,
-		"html.format.wrapLineLength": 200,
 		"gitlens.advanced.messages": {
 			"suppressLineUncommittedWarning": true
 		}
