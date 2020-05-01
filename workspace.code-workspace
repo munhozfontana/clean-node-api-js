@@ -41,6 +41,7 @@
 		"explorer.confirmDelete": false,
 		"gitlens.advanced.messages": {
 			"suppressLineUncommittedWarning": true
-		}
+		},
+		"standard.autoFixOnSave": true
 	}
 }
