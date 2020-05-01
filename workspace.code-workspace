@@ -1,0 +1,50 @@
+{
+	"extensions": {
+		"recommendations": [
+			"chenxsan.vscode-standardjs"
+		],
+	},
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Dracula",
+		// "editor.fontFamily": "Fira Code",
+		"editor.fontLigatures": true,
+		// Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+		"editor.rulers": [
+			80,
+			120
+		],
+		// Aplica um sinal visual na esquerda da linha selecionada
+		"editor.renderLineHighlight": "gutter",
+		// Aumenta a fonte do terminal
+		"terminal.integrated.fontSize": 14,
+		"editor.fontWeight": "400",
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true,
+			"source.fixAll": true
+		},
+		"window.zoomLevel": 1,
+		"git.confirmSync": false,
+		"autoimport.showNotifications": true,
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+		},
+		"javascript.validate.enable": false,
+		"autoimport.doubleQuotes": true,
+		"workbench.iconTheme": "material-icon-theme",
+		"explorer.confirmDelete": false,
+		"html.format.wrapLineLength": 200,
+		"gitlens.advanced.messages": {
+			"suppressLineUncommittedWarning": true
+		}
+	}
+}
