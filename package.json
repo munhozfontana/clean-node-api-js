@@ -8,7 +8,7 @@
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
-    "test:ci":"npm test -- --coverage"
+    "test:ci": "npm test -- --coverage"
   },
   "standard": {
     "env": [
@@ -22,5 +22,8 @@
     "jest": "^25.5.3",
     "lint-staged": "^10.2.2",
     "standard": "^14.3.3"
+  },
+  "dependencies": {
+    "validator": "^13.0.0"
   }
 }
