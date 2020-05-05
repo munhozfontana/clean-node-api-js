@@ -38,6 +38,15 @@
 		"gitlens.advanced.messages": {
 			"suppressLineUncommittedWarning": true
 		},
-		"standard.autoFixOnSave": true
+		"standard.autoFixOnSave": true,
+		"compilerOptions": {
+			"module": "commonjs",
+			"target": "es6"
+		},
+		"typeAcquisition": {
+			"include": [
+				"node"
+			]
+		}
 	}
 }
